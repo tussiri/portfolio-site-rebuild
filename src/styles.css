@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+/* html,
+body {
+  width: auto;
+  max-height: 80%;
+} */
+
+body {
+  font-family: 'Abhaya Libre', serif;
+
+}
+
+.vw-90 {
+  width: 90vw;
+}
+
+.vw-80 {
+  width: 80vw;
+}
+
+.vw-70 {
+  width: 80vw;
+}
+
+.min-vh-10 {
+  min-height: 10vh;
+}
+
+footer.container {
+  position: relative;
+  margin-top: 25vh;
+  width: 100%;
+  justify-content: center
+}
+
+
+
+/*
+h5 {
+  font-size: 1.5vw;
+}
+h1 {
+  font-size: 3vw;
+} */
+/* In this file, you ensure that html and body take full-page heights and widths.
+You also make Nunito the default font and include various style classes for setting widths and heights. */
+/* Style the video: 100% width and height to cover the entire window */

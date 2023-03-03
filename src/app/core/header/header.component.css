@@ -1,0 +1,19 @@
+ul.social-media-icons {
+    margin-left: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.social-media-icons li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.social-media-icons {
+    font-size: 24px;
+
+}
+
+.social-media-icons a i {
+    color: #fec625
+}

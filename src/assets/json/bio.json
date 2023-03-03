@@ -1,0 +1,12 @@
+{
+  "firstName": "Tumaini",
+  "lastName": "Ussiri",
+  "intro": [
+    "I'm a fullstack web developer with a passion for creating engaging and user-friendly web applications. With a strong foundation in HTML, CSS, Angular, JavaScript, and Java, I specialize in creating responsive designs that captivate and enhance user experiences. I have a PhD in English literature, and have always been fascinated by the power of lanuage and storytelling, even and include the stories we tell with and through technology."
+  ],
+  "about": [
+    "In addition to my technical skills, I am an excellent communicator, leader, and team member. I decided to pivot my career to web development because I have always had a passion for solving problems, and I saw an opportunity to combine my love of lanuage and storytelling with my pasison for technology. I consider myself a lifelong learner, and I'm constantly learning and expanding my skillset to keep up with the ever-evolving world of software and web development. I am a problem-solver at heart and thrive on the challege of finding creative solutions to complex problems.",
+    "I am confident that my background, skill set, and experiences give me a unique creative, and analytically motivated perspective on web development. I am excited to continue growing as a developer and to use my skills to create meaningful, engaging, intuitive and visually appealing projects for a wide range of audiences. So, lets' connect"
+  ],
+  "headshot": "assets/headShot.jpg"
+}

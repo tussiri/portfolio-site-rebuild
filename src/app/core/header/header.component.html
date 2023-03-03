@@ -1,0 +1,48 @@
+<div class="d-flex min-vh-200 max-vh-90 w-100 justify-content-center pb-5 pt-5 pr-5 pl-5">
+  <img src="../assets/img/headshot4.jpeg" style="height: 50px; padding-bottom: 0; border-radius: 50%; " alt="headshot"
+    routerLink="/" />
+  <div class="d-none d-md-flex justify-content-start align-items-start ml-3" *ngIf="bio$ | async as bio"
+    routerLink="/">
+    <h2 class="font-weight-bold" style="color: #fec625">{{ bio.firstName }}</h2>
+    <h2 class="font-weight-bold" style="color: #fec625; margin-left:5px"> {{ bio.lastName }}</h2>
+  </div>
+  <ul class="social-media-icons"
+    style="list-style-type: none; padding-left:10px; margin-left:25px vw-90;">
+    <li>
+      <a href="https://www.linkedin.com/in/tumaini_david_ussiri/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/tussiri" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  </ul>
+
+  <div class="d-none d-md-flex flex-grow-1 justify-content-end align-items-start">
+    <button type="button" class="ml-3 mr-3 btn btn-outline-dark border-0 font-weight-bold" style="color: #fec625"
+      *ngFor="let item of menuItems" [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
+      [fragment]="(isHome$ | async) ? item.fragment : ''">
+      {{ item.title }}
+    </button>
+  </div>
+  <div class="d-flex d-md-none justify-content-end flex-grow-1">
+    <div ngbDropdown class="d-inline-block" display="dynamic" container="body" style="color: #fec625">
+      <button class="btn btn-outline-light border-0" ngbDropdownToggle>
+        <i class="fas fa-lg fa-bars"></i>
+      </button>
+      <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right" style="color: #fec625; margin-bottom: 40px;">
+        <button ngbDropdownItem *ngFor="let item of menuItems"
+          [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
+          [fragment]="(isHome$ | async) ? item.fragment : ''">
+          {{ item.title }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- In the template, your names (bio.firstName and bio.lastName) are displayed using data from the bio property.
+    Depending on the size of the screen, either a dropdown or a list of buttons from menuItems is shown.
+    The alias pipe in the template will handle unsubscriptions from the observables.
+    This pattern will be followed throughout this tutorial. -->

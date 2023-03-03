@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-center vw-90 mx-auto" *ngIf="bio$ | async as bio">
+  <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
+    class="flex-column align-items-center text-center w-75 mt-3 mb-3">
+    <h1 [ngClass]="options.headingClass" class="mb-5" style="color:white">
+      <span class="font-weight-bold">About </span>Me
+    </h1>
+    <div *ngFor="let par of bio.about" style="color: #ffffff">
+      <h4 *ngIf="!options.useSmallerHeadings" class="mb-4">{{ par }}</h4>
+      <h5 *ngIf="options.useSmallerHeadings" class="mb-4">{{ par }}</h5>
+    </div>
+
+  </div>
+</div>
+
+<!-- In this template, you will display the data from the bio$ observable. You will loop through the “About” section of the information and add it as paragraphs to the “About” page. -->
