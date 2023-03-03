@@ -45,7 +45,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-src/assets/img/waves.mp4
 src/assets/img/headshot4.jpeg
 src/assets/img/Screenshot 2023-01-20 at 10.35.09 AM.png
 src/assets/img/Screenshot 2023-01-20 at 11.12.20 AM.png
