@@ -1,0 +1,63 @@
+<section *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
+    class="flex-column text-center  mt-3 mb-3">
+    <h1 [ngClass]="options.titleClasses" class="mb-5" style="color: #ffffff;">
+        <span class="font-weight-bold">Skills</span>
+    </h1>
+</section>
+<div class="container d-flex justify-content center vw-90 mx-auto">
+    <div class="d-flex vw-90 text-center justify-content-center mx-auto">
+        <div class="col">
+            <h2 class="flex-column text-center mt-3 mb-3">Soft Skills</h2>
+            <div class="container d-flex vw-33">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <div class="col text-center col flex-column text-center mt-3 mb-3">
+                        <i class=" fa-lg mr-5 fa fa-comments soft-skills">
+                            <h3>Communication</h3>
+                        </i>
+                    </div>
+                    <div class="col text-center col flex-column text-center mt-3 mb-3">
+                        <i class="fa-lg mr-5 fa fa-comments soft-skills ">
+                            <h3>Leadership</h3>
+                        </i>
+                    </div>
+                    <div class="col text-center col flex-column text-center mt-3 mb-3">
+                        <i class="fa-lg mr-5 fa fa-comments soft-skills">
+                            <h3>Mentoring</h3>
+                        </i>
+                    </div>
+                    <div class="col text-center col flex-column text-center mt-3">
+                        <i class="fa-lg fa fa-comments soft-skills">
+                            <h3>Critical Thinking</h3>
+                        </i>
+                    </div>
+                    <div class="col text-center col flex-column text-center mt-3 mb-3">
+                        <i class="fa-lg mr-5 fa fa-comments soft-skills">
+                            <h3>Teamwork</h3>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col vw-40">
+            <div class="container">
+                <h2 class="flex-column text-center mt-3 mb-3">Languages</h2>
+                <div class="row flex-wrap">
+                    <div class="col flex-column text-center mt-3 mb-3">
+                        <i class="col fa-lg mr-5 fab fa-html5 languages"></i>
+                    </div>
+                    <div class="col flex-column text-center mt-3 mb-3">
+                        <i class=" fa-lg mr-5 fab fa-css3 languages"></i>
+                    </div>
+                    <div class="col flex-column text-center mt-3 mb-3">
+                        <i class=" fa-lg mr-5 fab fa-js languages"></i>
+                    </div>
+                    <div class="col flex-column text-center mt-3 mb-3">
+                        <i class=" fa-lg mr-5 fab fa-java languages"></i>
+                    </div>
+                    <div class="col flex-column text-center mt-3 mb-3">
+                        <i class="fa-lg mr-5 fab fa-angular languages"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

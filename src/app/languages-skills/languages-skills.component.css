@@ -1,0 +1,37 @@
+h2 {
+    color: white;
+    margin-top: 50px;
+}
+
+h3 {
+    color: white;
+    margin-left: 1rem;
+}
+
+.languages i {
+    color: #fec625
+}
+
+.languages {
+    color: #fec625;
+    display: inline-flex;
+    padding-left: 10px;
+    font-size: 60px
+}
+
+.soft-skills {
+    font-size: 20px;
+    color: #fec625;
+    display: inline-flex;
+    line-height: 2rem;
+
+}
+
+.col {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+/* .container {
+    width: 25%;
+} */

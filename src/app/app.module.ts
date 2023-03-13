@@ -10,15 +10,20 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ContactFormComponent } from './portfolio/contact-form/contact-form.component';
 import { ContactService } from './core/services/contact.service';
 
+
+
+
+
 @NgModule({
-  declarations: [AppComponent, VideoBackgroundComponent, ContactFormComponent],
+  declarations: [AppComponent, VideoBackgroundComponent, ContactFormComponent,],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ScullyLibModule,
     NgbModule,
     CoreModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+
   ],
   providers: [ContactService],
   bootstrap: [AppComponent],

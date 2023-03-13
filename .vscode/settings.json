@@ -1,0 +1,6 @@
+{
+    "html.format.extraLiners": "false",
+    "html.format.indentInnerHtml": true,
+    "html.format.maxPreserveNewLines": null,
+    "html.format.wrapLineLength": 0
+}

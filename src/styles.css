@@ -1,12 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-/* html,
+html,
 body {
   width: auto;
   max-height: 80%;
-} */
+}
 
 body {
   font-family: 'Abhaya Libre', serif;
+  /* z-index: -1; */
 
 }
 
@@ -30,7 +31,8 @@ footer.container {
   position: relative;
   margin-top: 25vh;
   width: 100%;
-  justify-content: center
+  justify-content: center;
+  font-family: 'Abhaya Libre', serif;
 }
 
 

@@ -21,6 +21,17 @@
   z-index: -100;
   transition: 20s ease-in-out;
 }
+
+.background-image {
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  object-position: center;
+  z-index: -100;
+  position: absolute;
+
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -29,10 +40,10 @@
   height: 100%;
   opacity: 0;
   transition: opacity 0.2s;
-  /* object-fit: cover; */
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -99;
 }
+
 .overlay.show {
   opacity: 0.75;
 }
